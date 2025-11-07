@@ -97,6 +97,25 @@
     position: relative;
     overflow-x: hidden;
 }
+
+/* Three.js Background Canvas */
+#threejs-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.15;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+#threejs-background canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
      /* Animated gradient background */
 /* Animated gradient background with skull symbols */
 body::before {
