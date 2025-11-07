@@ -1,0 +1,783 @@
+{
+  "personalInfo": {
+    "name": " Shanmuga Ratnam",
+    "title": "Game Designer/Level Designer",
+    "avatar": "./assets/images/my-avatar.png",
+    "linkedin": "https://www.linkedin.com/in/santhoshdesigner09/",
+    "email": "santhoshratnam1@gmail.com",
+    "phone": "+1 604 729 1246",
+    "birthday": "January 09, 1999",
+    "location": "Vancouver, British Columbia, Canada",
+    "resumeLink": "https://drive.google.com/file/d/1pEWCpUG7P1kZhWc8JxYFKDNp2zSn-R7D/view?usp=sharing"
+  },
+  "about": {
+    "paragraphs": [
+      "I'm Game Designer and Game Programmer Originated from Chennai,India , Studying in GameDesign at Vancouver Film School. Enjoy coming up with fresh ideas, solving difficulties, and simplifying complicated things.",
+      "Designing a video game sounds like a dream job, getting paid to live in your imagination and think of new worlds that other people will experience"
+    ]
+  },
+  "services": [
+    {
+      "icon": "/assets/images/icon-design.svg",
+      "title": "Game Design",
+      "description": "The most modern and high-quality design made at a Junior level."
+    },
+    {
+      "icon": "/assets/images/icon-dev.svg",
+      "title": "Game-Programming",
+      "description": "Working knowledge of Unity and Unreal Scripting."
+    },
+    {
+      "icon": "/assets/images/icon-app.svg",
+      "title": "Level Design",
+      "description": "Primary Development as Level Designer in most of my University projects and personal Projects"
+    },
+    {
+      "icon": "/assets/images/icon-photo.svg",
+      "title": "UI/UX",
+      "description": "My prior graphic design experience boosted my creativity for UI and UX design."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Quinlan Henshaw",
+      "avatar": "./assets/images/avatar-1.png",
+      "text": "Great work, Ragball plays very well and has a lot of systems in place to achieve the gameplay you were going for. Some of the stuff you added last minute should be a reminder going forward of how much planning can help save you headaches in the future by figuring out the full scope of your project before you get into the trenches."
+    },
+    {
+      "name": "Spencer Bokrossy",
+      "avatar": "./assets/images/avatar-2.png",
+      "text": "Solid concept, simple and effective The art style could have used more info, I like the example, but having it localized to a single source makes it hard to tell how your game is unique, visually Great work! This was a solid game, I'd play this if it was real. Best of luck on the rest of your year"
+    },
+    {
+      "name": "Jace Nielsen",
+      "avatar": "./assets/images/avatar-3.png",
+      "text": "Very excellent job polishing up the level. It feels like it's in a shippable state."
+    },
+    {
+      "name": "Omar Chapa",
+      "avatar": "./assets/images/avatar-4.png",
+      "text": "excellent work trying to recreate some pokemon movement and systems, everything worked as expected, keep creating awesome stuff"
+    }
+  ],
+  "companies": [
+    {
+      "name": "Company 1",
+      "logo": "./assets/images/logo-1-color.png",
+      "link": "#"
+    },
+    {
+      "name": "Company 2",
+      "logo": "./assets/images/logo-2-color.png",
+      "link": "#"
+    },
+    {
+      "name": "Company 3",
+      "logo": "./assets/images/logo-3-color.png",
+      "link": "#"
+    },
+    {
+      "name": "Company 4",
+      "logo": "./assets/images/logo-4-color.png",
+      "link": "#"
+    },
+    {
+      "name": "Company 5",
+      "logo": "./assets/images/logo-5-color.png",
+      "link": "#"
+    },
+    {
+      "name": "Company 6",
+      "logo": "./assets/images/logo-6-color.png",
+      "link": "#"
+    }
+  ],
+  "projectModals": {
+    "ragball": {
+      "header": {
+        "title": "Ragball",
+        "subtitle": "Physics-Based Sports Puzzle Game",
+        "meta": [
+          {"label": "Engine", "value": "Unity"},
+          {"label": "Role", "value": "Game Designer / Programmer"},
+          {"label": "Duration", "value": "4 Weeks"},
+          {"label": "Platform", "value": "PC"}
+        ],
+        "downloadLink": "YOUR_GOOGLE_DRIVE_LINK_HERE"
+      },
+      "overview": [
+        "Ragball is a unique physics-based sports puzzle game that combines ragdoll mechanics with soccer-style gameplay. Players control a floppy ragdoll character attempting to score goals while navigating challenging obstacle courses. The game emphasizes player skill, timing, and understanding of physics-based movement to create a fun and challenging experience.",
+        "The core gameplay loop revolves around launching your ragdoll character toward the ball, making contact, and directing it toward the goal while managing momentum and avoiding obstacles. Each level introduces new challenges that test different aspects of physics-based control."
+      ],
+      "levelDesign": [
+        {
+          "number": "Level 01",
+          "title": "Tutorial Arena",
+          "description": "A simple open arena introducing players to basic ragdoll controls and ball physics. Players learn how to launch their character, make contact with the ball, and aim for the goal. Minimal obstacles allow players to focus on mastering the core mechanics without frustration. The level features clear visual indicators for controls and objectives."
+        }
+      ],
+      "goals": [
+        "Create an accessible yet challenging physics-based gameplay experience",
+        "Implement robust ragdoll physics that feel responsive and fun",
+        "Design levels that gradually introduce complexity",
+        "Balance frustration with reward to maintain player engagement"
+      ],
+      "features": [
+        "Physics-based ragdoll character controller with launch mechanics",
+        "Dynamic ball physics system with realistic collision responses",
+        "Obstacle variety including moving platforms, barriers, and hazards",
+        "Score tracking and star rating system based on attempts",
+        "Responsive camera system following both player and ball"
+      ],
+      "metrics": [
+        {"value": "1", "label": "Core Level"},
+        {"value": "5+", "label": "Mechanics"},
+        {"value": "4 Weeks", "label": "Development"},
+        {"value": "Solo", "label": "Project"}
+      ],
+      "challenges": [
+        {
+          "title": "Ragdoll Control Unpredictability",
+          "problem": "Initial ragdoll physics were too chaotic, making it nearly impossible for players to consistently hit the ball or control their character's trajectory. Playtesters expressed frustration with the random outcomes.",
+          "solution": "Implemented a semi-predictable launch system with visual trajectory indicators. Added slight dampening to reduce extreme ragdoll flopping while maintaining the comedic physics feel. Created a \"launch preview\" that shows approximate landing zones, giving players more control without removing the physics-based challenge."
+        },
+        {
+          "title": "Camera System Challenges",
+          "problem": "The camera struggled to track both the player character and ball simultaneously, often leaving one or both off-screen during critical moments. Players lost track of objectives.",
+          "solution": "Developed a dynamic dual-target camera system that smoothly transitions between following the player and the ball based on game state. When the ball is moving toward the goal, camera prioritizes ball tracking. During player control, focus shifts to the character. Added zoom-out functionality when both targets are far apart."
+        },
+        {
+          "title": "Scope Management",
+          "problem": "Late in development, attempted to add new features and multiple levels, causing time crunch and incomplete implementation. Some systems were rushed and not fully polished.",
+          "solution": "Focused on perfecting one complete level rather than multiple unpolished ones. Prioritized core mechanics and level polish over feature quantity. This taught valuable lessons about proper planning and realistic scope setting for future projects."
+        }
+      ],
+      "gameAreas": [
+        {
+          "name": "Main Arena",
+          "description": "The primary play area features a soccer-style field with a central ball spawn point and goal zone. The arena includes various obstacles and ramps that create interesting ball trajectories. Designed with clear sight lines to ensure players always understand the goal location and ball position."
+        },
+        {
+          "name": "Obstacle Course",
+          "description": "Surrounding the central arena, obstacle elements include moving platforms, bounce pads, and barriers that add complexity to ball navigation. These elements are positioned to create multiple solution paths, encouraging player experimentation with different ragdoll launch strategies."
+        }
+      ],
+      "media": [
+        {
+          "type": "image",
+          "src": "./assets/images/blog-3.png",
+          "alt": "Ragball Gameplay",
+          "caption": "Ragball Main Arena Gameplay"
+        }
+      ],
+      "finalThoughts": [
+        "Ragball was an excellent learning experience in physics-based game design and the importance of scope management. The project reinforced that player control and predictability are crucial even in physics-driven games. While the ragdoll mechanics are inherently chaotic, players still need to feel they have agency over outcomes.",
+        "The biggest lesson learned was about planning and time management. Adding features late in development created unnecessary stress and prevented proper polish. Going forward, I've learned to establish clear scope boundaries early and stick to them, ensuring whatever I build is fully realized rather than attempting too much. The feedback from instructors about planning ahead has shaped my approach to all subsequent projects."
+      ]
+    },
+    "mechanical-fury": {
+      "header": {
+        "title": "Mechanical Fury",
+        "subtitle": "Fast-Paced Mech Combat Arena",
+        "meta": [
+          {"label": "Engine", "value": "Unreal Engine"},
+          {"label": "Role", "value": "Game Designer / Level Designer"},
+          {"label": "Duration", "value": "8 Weeks"},
+          {"label": "Platform", "value": "PC (Steam)"}
+        ],
+        "downloadLink": "https://store.steampowered.com/app/2334150/Mechanical_Fury/"
+      },
+      "overview": [
+        "Mechanical Fury is a high-octane mech combat game that puts players in control of powerful mechanical warriors in intense arena battles. The game emphasizes fast-paced movement, strategic weapon management, and tactical positioning. Players must master dash mechanics, weapon switching, and environmental awareness to dominate the battlefield.",
+        "As a commercial release on Steam, Mechanical Fury represents a fully-realized game project with polished mechanics, multiple game modes, and extensive playtesting. The project showcases professional-level game design, balancing, and implementation in Unreal Engine, making it a cornerstone portfolio piece demonstrating commercial game development experience."
+      ],
+      "levelDesign": [
+        {
+          "number": "Arena 01",
+          "title": "Industrial Complex",
+          "description": "The primary combat arena features industrial architecture with multiple elevation levels and cover points. Designed with sight lines that encourage strategic positioning while preventing camping. Includes verticality elements that reward players who master the dash and mobility mechanics. The arena's layout creates natural choke points and battle flow, ensuring dynamic combat encounters."
+        },
+        {
+          "number": "Arena 02",
+          "title": "Urban Warfare Zone",
+          "description": "A city-themed arena with destroyed buildings and tight corridors alternating with open streets. This arena tests close-quarters combat skills and quick weapon switching. Environmental hazards and destructible elements add tactical depth. The asymmetric layout creates opportunities for flanking maneuvers and ambush tactics."
+        },
+        {
+          "number": "Arena 03",
+          "title": "Reactor Core",
+          "description": "A futuristic energy facility arena with glowing tech elements and hazardous energy zones. Features a central control point that becomes a focal point for combat. Multiple pathways and platforms create three-dimensional combat space. Environmental storytelling through industrial design elements enhances immersion."
+        }
+      ],
+      "goals": [
+        "Create a commercial-quality mech combat game ready for Steam release",
+        "Design balanced, competitive gameplay with high skill ceiling",
+        "Implement multiple game modes to maximize replayability",
+        "Polish all aspects to professional standards for public release",
+        "Develop engaging arena designs that support varied playstyles"
+      ],
+      "features": [
+        "Fast-paced dash-based movement system with momentum mechanics",
+        "Multiple weapon types with distinct tactical applications",
+        "Dynamic camera system optimized for fast action",
+        "Multiple arena environments with unique tactical layouts",
+        "AI opponents with adaptive difficulty scaling",
+        "Score attack and survival game modes",
+        "Weapon customization and loadout system",
+        "Polished VFX and audio feedback for impactful combat feel"
+      ],
+      "metrics": [
+        {"value": "3", "label": "Arenas"},
+        {"value": "5+", "label": "Weapon Types"},
+        {"value": "8 Weeks", "label": "Development"},
+        {"value": "Steam", "label": "Released"}
+      ],
+      "challenges": [
+        {
+          "title": "Movement Speed vs Control Balance",
+          "problem": "Initial dash mechanics were either too fast (causing disorientation) or too slow (feeling sluggish and unresponsive). Finding the sweet spot between exciting speed and maintainable control proved challenging during early playtests.",
+          "solution": "Implemented a momentum-based dash system with acceleration curves rather than instant max speed. Added visual motion blur and camera shake tuned to enhance speed sensation without actual disorientation. Extensive playtesting with different player skill levels helped identify the optimal speed values that felt fast yet controllable."
+        },
+        {
+          "title": "Weapon Balance Across Playstyles",
+          "problem": "Different weapon types dominated at various skill levels. Shotguns were overpowered for new players, while sniper rifles dominated high-level play, creating balance issues that varied by player skill.",
+          "solution": "Redesigned weapons around risk-reward tradeoffs rather than pure damage output. Shotguns require close-range risk, snipers have movement penalties while scoped. Implemented weapon switching cooldowns to prevent instant-swap tactics. Created \"weapon triangle\" balance where each type has clear counters, encouraging tactical loadout choices and mid-combat adaptation."
+        },
+        {
+          "title": "Steam Release Optimization",
+          "problem": "Preparing for commercial Steam release required optimization and polish beyond typical student project scope. Performance issues on lower-end hardware and missing quality-of-life features threatened launch quality.",
+          "solution": "Conducted extensive optimization pass focusing on LOD systems, particle effects, and draw call reduction. Implemented comprehensive graphics settings menu with presets. Added Steam achievements, cloud saves, and controller support. Multiple rounds of QA testing across different hardware configurations ensured smooth experience for target audience."
+        }
+      ],
+      "gameAreas": [
+        {
+          "name": "High-Ground Positions",
+          "description": "Elevated positions in each arena provide tactical advantages but expose players to flanking routes. These areas reward skilled movement and positioning while preventing them from becoming dominant camping spots through limited cover and multiple access points."
+        },
+        {
+          "name": "Central Control Points",
+          "description": "Each arena features a central hotspot designed to become the focal point of combat. These areas provide tactical benefits (weapon spawns, score zones) that draw players together, ensuring consistent action and reducing the chance of boring matches."
+        },
+        {
+          "name": "Flanking Routes",
+          "description": "Side passages and alternate paths allow players to outmaneuver opponents and break defensive positions. These routes are designed to be slightly riskier but reward strategic thinking and map knowledge, adding depth to combat beyond pure mechanical skill."
+        },
+        {
+          "name": "Hazard Zones",
+          "description": "Environmental hazards like energy fields and pitfalls add tactical considerations to movement. Players can use these to their advantage by baiting opponents into danger or creating escape routes, adding another layer to combat decision-making."
+        }
+      ],
+      "media": [
+        {
+          "type": "text",
+          "content": "Available on Steam:",
+          "link": "https://store.steampowered.com/app/2334150/Mechanical_Fury/",
+          "linkText": "View Store Page, Trailer, and Screenshots"
+        }
+      ],
+      "finalThoughts": [
+        "Mechanical Fury represents a significant milestone as my first commercial game release on Steam. The project taught invaluable lessons about the difference between \"student project complete\" and \"commercially viable product.\" The additional polish, optimization, and quality assurance required for public release far exceeded typical academic projects.",
+        "Working on a Steam release provided real-world experience with commercial game development pipelines, platform requirements, and player expectations. The challenge of balancing gameplay for different skill levels while maintaining competitive integrity taught me crucial lessons about accessibility and depth. Most importantly, seeing real players experience and enjoy the game has been incredibly rewarding and validated the hard work invested.",
+        "This project demonstrated that I can take a game from concept through to commercial release, handling all aspects of design, implementation, testing, and launch. It serves as proof of my ability to work on professional game development projects and deliver polished, player-ready experiences."
+      ]
+    },
+    "quest-valor": {
+      "header": {
+        "title": "Quest of Valor",
+        "subtitle": "Action RPG Adventure",
+        "meta": [
+          {"label": "Engine", "value": "Unreal Engine"},
+          {"label": "Role", "value": "Game Designer / Level Designer"},
+          {"label": "Duration", "value": "6 Weeks"},
+          {"label": "Team Size", "value": "4 Members"}
+        ],
+        "downloadLink": "YOUR_GOOGLE_DRIVE_LINK_HERE"
+      },
+      "overview": [
+        "Quest of Valor is an action RPG that combines classic dungeon exploration with modern combat mechanics. Players embark on a hero's journey through diverse environments, battling enemies and solving environmental puzzles. The game emphasizes player progression, strategic combat, and exploration-driven gameplay.",
+        "As a team project, Quest of Valor showcases collaborative game development and cross-discipline coordination. My role focused on level design and combat encounters, ensuring each area provided unique challenges while maintaining cohesive difficulty progression throughout the adventure."
+      ],
+      "levelDesign": [
+        {
+          "number": "Level 01",
+          "title": "Forest Outskirts",
+          "description": "The opening level introduces players to basic combat and movement through a serene forest environment. Simple enemy encounters teach fundamental mechanics without overwhelming new players. Environmental storytelling through abandoned campsites and NPC interactions establishes the game's narrative tone. The level gradually increases challenge, preparing players for more complex encounters ahead."
+        },
+        {
+          "number": "Level 02",
+          "title": "Ancient Temple Ruins",
+          "description": "Players navigate crumbling temple architecture filled with traps and puzzles. This level introduces platforming elements and environmental hazards alongside combat. Ancient mechanisms require solving light-based puzzles to progress, adding variety beyond pure combat. The temple's verticality and non-linear layout encourage exploration and reward thorough investigation with hidden treasures."
+        },
+        {
+          "number": "Level 03",
+          "title": "Mountain Pass Battle",
+          "description": "A challenging mountain environment featuring narrow paths and environmental dangers. Strong winds, falling rocks, and aggressive enemy placements create intense combat scenarios. Players must manage positioning carefully to avoid being knocked off ledges while dealing with ranged and melee threats. The level culminates in a mini-boss encounter testing all skills learned so far."
+        },
+        {
+          "number": "Level 04",
+          "title": "Dark Cavern Depths",
+          "description": "Underground caverns with limited visibility and ambush encounters. Players must use torches to navigate while managing combat in close quarters. Introduces stealth mechanics as an optional approach to certain sections. The darkness creates tension and forces players to adapt their combat strategies. Hidden passages reward exploration with powerful equipment."
+        }
+      ],
+      "goals": [
+        "Create a cohesive action RPG experience with progressive difficulty",
+        "Design varied levels that each offer unique gameplay challenges",
+        "Implement satisfying combat with responsive controls and impactful feedback",
+        "Balance exploration, combat, and puzzle-solving elements",
+        "Collaborate effectively across programming, art, and design disciplines"
+      ],
+      "features": [
+        "Melee combat system with combos and special attacks",
+        "Character progression with skill trees and equipment upgrades",
+        "Environmental puzzles requiring creative problem-solving",
+        "Dynamic weather and day/night cycle affecting gameplay",
+        "Boss encounters with unique mechanics",
+        "Hidden collectibles and secret areas"
+      ],
+      "metrics": [
+        {"value": "4", "label": "Levels"},
+        {"value": "8+", "label": "Mechanics"},
+        {"value": "6 Weeks", "label": "Development"},
+        {"value": "4", "label": "Team Size"}
+      ],
+      "challenges": [
+        {
+          "title": "Difficulty Balancing Across Skill Levels",
+          "problem": "Early playtesting revealed significant difficulty gaps. New players struggled with early levels while experienced players found later sections too easy. Balancing combat encounters to accommodate different skill levels proved challenging.",
+          "solution": "Implemented adaptive difficulty system that scales enemy stats based on player performance. Added optional tutorial sections that can be skipped by experienced players. Created multiple difficulty presets with clear descriptions of what each offers, allowing players to choose their preferred experience."
+        },
+        {
+          "title": "Team Coordination and Asset Pipeline",
+          "problem": "As a team project, coordinating between designers, programmers, and artists created workflow bottlenecks. Version control conflicts and inconsistent asset naming caused integration issues.",
+          "solution": "Established clear naming conventions and folder structures from project start. Implemented daily stand-ups and weekly milestone reviews. Created shared documentation for all systems and assets. This improved workflow significantly and taught valuable lessons about production pipelines."
+        },
+        {
+          "title": "Combat Feel and Player Feedback",
+          "problem": "Initial combat felt unresponsive and lacked impact. Players reported difficulty understanding when attacks landed or when they took damage. The combat system worked functionally but felt unsatisfying.",
+          "solution": "Enhanced visual and audio feedback with hit sparks, sound effects, and screen shake. Added brief hit-pause on successful attacks to emphasize impact. Implemented damage numbers and health bar updates with smooth animations. These juice elements transformed combat from functional to satisfying."
+        }
+      ],
+      "gameAreas": [
+        {
+          "name": "Starting Village",
+          "description": "A safe tutorial area introducing players to basic mechanics. NPCs provide guidance and simple quests. The peaceful atmosphere contrasts with later dangerous areas, establishing the stakes for the journey ahead."
+        },
+        {
+          "name": "Boss Arenas",
+          "description": "Dedicated combat spaces designed around specific boss mechanics. Each arena features environmental elements that can be used tactically during fights. The circular design ensures bosses remain visible while providing cover points."
+        },
+        {
+          "name": "Secret Chambers",
+          "description": "Hidden areas rewarding thorough exploration. These chambers contain powerful equipment and lore items. Environmental puzzles guard entrances, ensuring only observant players discover them."
+        },
+        {
+          "name": "Transition Zones",
+          "description": "Connecting areas between major levels that provide breathing room after intense combat. Safe spots for players to manage inventory, review progress, and prepare for upcoming challenges."
+        }
+      ],
+      "media": [
+        {
+          "type": "image",
+          "src": "./assets/images/blog-2.png",
+          "alt": "Quest of Valor Gameplay",
+          "caption": "Quest of Valor Combat Screenshot"
+        }
+      ],
+      "finalThoughts": [
+        "Quest of Valor was my first major team project and provided invaluable experience in collaborative game development. Working with programmers and artists taught me the importance of clear communication and documentation. I learned to design systems that others can implement and iterate on.",
+        "The project reinforced lessons about progressive difficulty design and player onboarding. Creating levels that teach mechanics naturally rather than through explicit tutorials proved more engaging. The experience of balancing multiple player skill levels influenced my approach to accessibility in all future projects.",
+        "Most importantly, this project taught me about production pipelines and team workflows. The challenges we faced with asset management and version control became learning opportunities that improved our processes. These lessons about team coordination and project management have proven valuable in every subsequent project."
+      ]
+    },
+    "flesh-horror": {
+      "header": {
+        "title": "Flesh Colour Horror",
+        "subtitle": "Atmospheric Horror Experience",
+        "meta": [
+          {"label": "Engine", "value": "Unity"},
+          {"label": "Role", "value": "Game Designer / Level Designer"},
+          {"label": "Duration", "value": "5 Weeks"},
+          {"label": "Genre", "value": "Survival Horror"}
+        ],
+        "downloadLink": "YOUR_GOOGLE_DRIVE_LINK_HERE"
+      },
+      "overview": [
+        "Flesh Colour Horror is an atmospheric survival horror game emphasizing psychological tension over jump scares. Players navigate through disturbing environments while managing limited resources and avoiding grotesque enemies. The game focuses on creating sustained dread through environmental storytelling, sound design, and careful pacing.",
+        "The project explores body horror themes through its visual design and mechanics. Players must confront their fears while solving environmental puzzles and making difficult choices about resource management. Every decision impacts survival chances, creating meaningful tension throughout the experience."
+      ],
+      "levelDesign": [
+        {
+          "number": "Level 01",
+          "title": "Abandoned Medical Facility",
+          "description": "The opening level establishes the horror atmosphere through environmental storytelling. Players explore a decaying medical facility with disturbing remnants of failed experiments. Limited lighting forces careful navigation while teaching core mechanics. The level gradually introduces threats, building tension before the first enemy encounter."
+        },
+        {
+          "number": "Level 02",
+          "title": "Containment Breach",
+          "description": "A more aggressive level where enemies actively hunt the player. Broken containment units release horrific creatures into the facility. Players must use stealth and environmental awareness to survive. Multiple path choices allow different approaches - aggressive with limited resources or cautious avoidance."
+        },
+        {
+          "number": "Level 03",
+          "title": "The Deep Laboratory",
+          "description": "The final level descends into the facility's heart where the horrors originated. Puzzle elements increase as players manipulate experimental equipment to progress. The environment becomes more organic and disturbing, reflecting the corruption spreading through the facility. Culminates in a tense finale requiring all learned skills."
+        }
+      ],
+      "goals": [
+        "Create sustained psychological horror without relying on jump scares",
+        "Design levels that tell environmental stories",
+        "Implement meaningful resource management decisions",
+        "Balance tension with moments of relief to prevent player fatigue",
+        "Explore body horror themes through mechanics and visuals"
+      ],
+      "features": [
+        "Atmospheric lighting and sound design creating constant tension",
+        "Limited inventory system forcing difficult resource choices",
+        "Stealth mechanics allowing players to avoid or confront threats",
+        "Environmental puzzles integrated with horror elements",
+        "Multiple endings based on player choices throughout game",
+        "Sanity mechanic affecting player perception and gameplay",
+        "Dynamic enemy AI that learns from player behavior"
+      ],
+      "metrics": [
+        {"value": "3", "label": "Levels"},
+        {"value": "6+", "label": "Enemy Types"},
+        {"value": "5 Weeks", "label": "Development"},
+        {"value": "Solo", "label": "Project"}
+      ],
+      "challenges": [
+        {
+          "title": "Balancing Fear and Frustration",
+          "problem": "Initial playtests revealed players either found the game too scary to continue or not scary enough to be engaging. The line between effective horror and frustrating difficulty proved difficult to find. Some players quit due to stress while others felt bored.",
+          "solution": "Implemented pacing that alternates intense horror sequences with calmer exploration periods. Added safe rooms where players can breathe and manage resources. Created optional difficulty settings that adjust enemy aggression and resource scarcity. This allowed players to tailor the experience to their horror tolerance while maintaining core tension."
+        },
+        {
+          "title": "Environmental Storytelling Clarity",
+          "problem": "Early versions relied too heavily on environmental storytelling, leaving many players confused about objectives and narrative. The horror atmosphere made exploration difficult, causing players to miss crucial story elements and become lost.",
+          "solution": "Added subtle environmental cues guiding players without breaking immersion. Implemented an optional objective tracker that doesn't hold hands but prevents complete confusion. Created more intentional lighting directing attention to important areas. Balanced environmental storytelling with clearer narrative beats through audio logs and documents."
+        },
+        {
+          "title": "Performance and Atmosphere Balance",
+          "problem": "The atmospheric effects crucial to horror (complex lighting, particle effects, post-processing) caused significant performance issues. Frame rate drops broke immersion and made the game unplayable on lower-end systems.",
+          "solution": "Optimized lighting by baking static lights and using light probes effectively. Reduced particle effects where they weren't crucial to atmosphere. Implemented scalable graphics settings allowing players to prioritize performance or visuals. Learned valuable lessons about optimization without sacrificing artistic vision."
+        }
+      ],
+      "gameAreas": [
+        {
+          "name": "Safe Rooms",
+          "description": "Sanctuary spaces where players can save progress, manage inventory, and recover. These rooms provide necessary respite from constant tension while their rarity makes each discovery meaningful. The contrast between safety and danger heightens overall horror effectiveness."
+        },
+        {
+          "name": "Contaminated Zones",
+          "description": "Areas where organic corruption has taken over, featuring disturbing visual design and unique hazards. These zones test player courage and resource management as protective equipment depletes. The grotesque environments reinforce body horror themes central to the game."
+        },
+        {
+          "name": "Dark Passages",
+          "description": "Narrow corridors with minimal lighting where visibility is severely limited. These areas create claustrophobic tension and force players to use limited light sources strategically. Sound design becomes crucial for detecting threats in darkness."
+        },
+        {
+          "name": "Experimentation Chambers",
+          "description": "Large rooms filled with horrific medical equipment and evidence of failed experiments. These spaces provide environmental storytelling while serving as arenas for more aggressive enemy encounters. Players must use the environment tactically to survive."
+        }
+      ],
+      "media": [
+        {
+          "type": "image",
+          "src": "./assets/images/blog-1.png",
+          "alt": "Flesh Colour Horror Atmosphere",
+          "caption": "Atmospheric Horror Environment"
+        }
+      ],
+      "finalThoughts": [
+        "Flesh Colour Horror was my first attempt at designing a horror experience and taught me invaluable lessons about pacing, atmosphere, and player psychology. Creating effective horror requires understanding what makes people uncomfortable and how to maintain that feeling without crossing into frustration or desensitization.",
+        "The project demonstrated the importance of playtesting with diverse audiences. Horror is subjective - what terrifies one player might bore another. Learning to design systems that accommodate different fear tolerances while maintaining core vision was challenging but crucial. The optional difficulty settings and safe room system emerged from this understanding.",
+        "Most significantly, this project taught me about environmental storytelling and using game mechanics to reinforce themes. The resource scarcity, sanity system, and organic corruption spreading through levels all served the body horror concept. Future projects benefited from these lessons about mechanical and thematic cohesion."
+      ]
+    },
+    "mini-games": {
+      "header": {
+        "title": "Mini Games",
+        "subtitle": "",
+        "meta": [],
+        "downloadLink": "YOUR_GOOGLE_DRIVE_LINK_HERE"
+      },
+      "overview": [],
+      "levelDesign": [],
+      "goals": [],
+      "features": [],
+      "metrics": [],
+      "challenges": [],
+      "gameAreas": [],
+      "media": [],
+      "finalThoughts": []
+    },
+    "frenemies": {
+      "header": {
+        "title": "Frenemies",
+        "subtitle": "2.5D Local Co-op Puzzle Game",
+        "meta": [
+          {"label": "Role", "value": "Technical Design | VFX"},
+          {"label": "Duration", "value": "5 Months"},
+          {"label": "Platform", "value": "PC"},
+          {"label": "Engine", "value": "Unity"}
+        ],
+        "downloadLink": "YOUR_GOOGLE_DRIVE_LINK_HERE"
+      },
+      "overview": [
+        "Frenemies is a 2.5D local co-op puzzle game for three players. The game takes place inside the belly of a dragon who has eaten a chunk of the kingdom's castle along with our protagonists. Now our three brave heroes must find a way to defeat the giant beast.",
+        "Fortunately for them, upon being swallowed, our heroes found three magic hats, which grant the user a unique special ability when worn: a mage hat that allows them to freeze, an archer hat with a bow included and a barbarian hat with a strong hammer. Weirdly enough it seems like these abilities are supposed to be used on your friends! Freeze, Impale on walls or swing your friend like a golf ball! Embark in this \"friendly\" adventure with two others until you reach the dragon's heart, slay the dragon, and save the kingdom."
+      ],
+      "levelDesign": [],
+      "goals": [
+        "Create engaging co-operative puzzle mechanics that require teamwork",
+        "Design 20 unique obstacles for level progression",
+        "Implement VFX systems that enhance visual feedback",
+        "Develop technical level design systems for smooth gameplay"
+      ],
+      "features": [
+        "2.5D local co-op gameplay for three players",
+        "Three unique character abilities (Mage, Archer, Barbarian)",
+        "20+ prototype obstacles for level design",
+        "Custom VFX and shader systems",
+        "HLSL shader programming for visual effects",
+        "Technical level design implementation"
+      ],
+      "metrics": [
+        {"value": "20+", "label": "Obstacles"},
+        {"value": "3", "label": "Players"},
+        {"value": "5 Months", "label": "Development"},
+        {"value": "Unity", "label": "Engine"}
+      ],
+      "challenges": [],
+      "gameAreas": [],
+      "media": [
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/embed/56J5k_aIvAk",
+          "caption": "Frenemies Gameplay Trailer"
+        }
+      ],
+      "finalThoughts": [
+        "Frenemies was an excellent opportunity to combine technical design with visual effects creation. My task for this project was to prototype 20 obstacles for the level design, and I was able to handle the majority of the level design's technical aspects.",
+        "I created all of the VFX for this project, including the custom shader graph functions. I picked up HLSL quickly and began working on shaders, which improved the project's visual feedback significantly. This project taught me valuable lessons about balancing technical implementation with creative visual design, and how VFX can enhance gameplay communication."
+      ]
+    },
+    "nekokuza": {
+      "header": {
+        "title": "Nekokuza",
+        "subtitle": "Action RPG Game Design",
+        "meta": [
+          {"label": "Role", "value": "Game Designer"},
+          {"label": "Duration", "value": "6 Weeks"},
+          {"label": "Platform", "value": "PC"}
+        ],
+        "downloadLink": "YOUR_GOOGLE_DRIVE_LINK_HERE"
+      },
+      "overview": [
+        "Nekokuza is an action RPG combining Japanese aesthetics with intense combat mechanics. Players take on the role of a mystical cat warrior navigating through a vibrant world filled with challenges and mysteries."
+      ],
+      "levelDesign": [],
+      "goals": [],
+      "features": [
+        "Dynamic combat system with combo mechanics",
+        "Character progression and skill trees",
+        "Immersive Japanese-inspired art direction",
+        "Multiple gameplay environments"
+      ],
+      "metrics": [],
+      "challenges": [],
+      "gameAreas": [],
+      "media": [],
+      "finalThoughts": []
+    },
+    "uxui": {
+      "header": {
+        "title": "UX/UI Design Project",
+        "subtitle": "User Experience & Interface Design",
+        "meta": [
+          {"label": "Role", "value": "UI/UX Designer"},
+          {"label": "Tools", "value": "Figma, Adobe XD"}
+        ],
+        "downloadLink": "YOUR_GOOGLE_DRIVE_LINK_HERE"
+      },
+      "overview": [
+        "This project showcases my approach to creating intuitive and engaging user interfaces for games. Focus on player experience, accessibility, and visual clarity guided every design decision."
+      ],
+      "levelDesign": [],
+      "goals": [],
+      "features": [
+        "Intuitive navigation system with clear visual hierarchy",
+        "Responsive design adapting to different screen sizes",
+        "Accessibility features including colorblind modes",
+        "Consistent visual language across all UI elements"
+      ],
+      "metrics": [],
+      "challenges": [],
+      "gameAreas": [],
+      "media": [],
+      "finalThoughts": [
+        "This project strengthened my understanding of player-centered design and the importance of iterative testing. The experience taught me valuable lessons about balancing aesthetics with functionality."
+      ]
+    },
+    "overlord": {
+      "header": {
+        "title": "OverLord",
+        "subtitle": "Strategy Game Design",
+        "meta": [
+          {"label": "Role", "value": "Game Designer"},
+          {"label": "Genre", "value": "Strategy"}
+        ],
+        "downloadLink": "YOUR_GOOGLE_DRIVE_LINK_HERE"
+      },
+      "overview": [
+        "OverLord is a strategic game where players manage resources and command armies. The design focuses on tactical decision-making and resource management."
+      ],
+      "levelDesign": [],
+      "goals": [],
+      "features": [
+        "Complex resource management system",
+        "Multiple unit types with unique abilities",
+        "Strategic map design encouraging tactical gameplay",
+        "Progressive difficulty curve"
+      ],
+      "metrics": [],
+      "challenges": [],
+      "gameAreas": [],
+      "media": [],
+      "finalThoughts": [
+        "This project taught me valuable lessons about balancing game complexity with player accessibility. Creating systems that are easy to learn but difficult to master proved challenging but rewarding."
+      ]
+    },
+    "journey2095": {
+      "header": {
+        "title": "Journey 2095",
+        "subtitle": "Sci-Fi Adventure Game",
+        "meta": [
+          {"label": "Role", "value": "Level Designer / Game Designer"},
+          {"label": "Setting", "value": "Futuristic Sci-Fi"}
+        ],
+        "downloadLink": "YOUR_GOOGLE_DRIVE_LINK_HERE"
+      },
+      "overview": [
+        "Journey 2095 takes players on an adventure through a futuristic world. The game combines exploration, puzzle-solving, and narrative elements to create an immersive sci-fi experience."
+      ],
+      "levelDesign": [],
+      "goals": [],
+      "features": [
+        "Futuristic environments with detailed world-building",
+        "Environmental storytelling elements",
+        "Puzzle mechanics integrated with narrative",
+        "Multiple paths encouraging exploration",
+        "Atmospheric lighting and visual design"
+      ],
+      "metrics": [],
+      "challenges": [],
+      "gameAreas": [],
+      "media": [],
+      "finalThoughts": [
+        "This project expanded my skills in environmental storytelling and world-building. Creating a cohesive futuristic setting required careful attention to detail and consistent visual language throughout all areas."
+      ]
+    },
+    "nekomancer": {
+      "header": {
+        "title": "Nekomancer!",
+        "subtitle": "Magic Cat Adventure",
+        "meta": [
+          {"label": "Role", "value": "Game Designer"},
+          {"label": "Theme", "value": "Magical Fantasy"}
+        ],
+        "downloadLink": "YOUR_GOOGLE_DRIVE_LINK_HERE"
+      },
+      "overview": [
+        "Nekomancer is a whimsical adventure where players control a magical cat with necromancy powers. The game blends cute aesthetics with strategic spell-casting and puzzle-solving mechanics."
+      ],
+      "levelDesign": [],
+      "goals": [],
+      "features": [
+        "Unique spell-casting system with cat-themed magic",
+        "Charming visual style mixing cute and spooky elements",
+        "Puzzle mechanics based on necromancy abilities",
+        "Multiple abilities that unlock progressively",
+        "Boss encounters requiring strategic spell usage"
+      ],
+      "metrics": [],
+      "challenges": [],
+      "gameAreas": [],
+      "media": [],
+      "finalThoughts": [
+        "Nekomancer was an exercise in balancing contrasting themes and creating a cohesive game identity. The project taught me about character design, ability progression systems, and maintaining consistent tone throughout gameplay."
+      ]
+    }
+  },
+  "projects": {
+    "gameProject": [
+      {
+        "id": "ragball",
+        "title": "Ragball",
+        "category": "game project",
+        "image": "./assets/images/blog-3.png"
+      },
+      {
+        "id": "mechanical-fury",
+        "title": "Mechanical Fury",
+        "category": "game project",
+        "image": "./assets/images/mechanical-fury.png"
+      },
+      {
+        "id": "quest-valor",
+        "title": "Quest of Valor",
+        "category": "game project",
+        "image": "./assets/images/blog-2.png"
+      },
+      {
+        "id": "flesh-horror",
+        "title": "Flesh Colour Horror",
+        "category": "game project",
+        "image": "./assets/images/blog-1.png"
+      },
+      {
+        "id": "mini-games",
+        "title": "Mini Games",
+        "category": "game project",
+        "image": "./assets/images/blog-4.png"
+      },
+      {
+        "id": "frenemies",
+        "title": "Frenemies",
+        "category": "game project",
+        "image": "./assets/images/blog-5.png"
+      }
+    ],
+    "others": [
+      {
+        "id": "nekokuza",
+        "title": "Nekokuza",
+        "category": "others",
+        "image": "./assets/images/project-3.png"
+      },
+      {
+        "id": "uxui",
+        "title": "UX/UI",
+        "category": "others",
+        "image": "./assets/images/project-10.png"
+      },
+      {
+        "id": "overlord",
+        "title": "OverLord",
+        "category": "others",
+        "image": "./assets/images/project-5.png"
+      },
+      {
+        "id": "journey2095",
+        "title": "Journey 2095",
+        "category": "others",
+        "image": "./assets/images/project-6.png"
+      },
+      {
+        "id": "nekomancer",
+        "title": "Nekomancer!",
+        "category": "others",
+        "image": "./assets/images/project-6.1.png"
+      }
+    ]
+  }
+}
+
