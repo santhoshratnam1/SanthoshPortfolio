@@ -18,22 +18,22 @@
   },
   "services": [
     {
-      "icon": "/assets/images/icon-design.svg",
+      "icon": "./assets/images/icon-design.svg",
       "title": "Game Design",
       "description": "The most modern and high-quality design made at a Junior level."
     },
     {
-      "icon": "/assets/images/icon-dev.svg",
+      "icon": "./assets/images/icon-dev.svg",
       "title": "Game-Programming",
       "description": "Working knowledge of Unity and Unreal Scripting."
     },
     {
-      "icon": "/assets/images/icon-app.svg",
+      "icon": "./assets/images/icon-app.svg",
       "title": "Level Design",
       "description": "Primary Development as Level Designer in most of my University projects and personal Projects"
     },
     {
-      "icon": "/assets/images/icon-photo.svg",
+      "icon": "./assets/images/icon-photo.svg",
       "title": "UI/UX",
       "description": "My prior graphic design experience boosted my creativity for UI and UX design."
     }

@@ -223,14 +223,16 @@ function populateServices() {
         // Create image element directly (better for path resolution)
         const img = document.createElement('img');
         
-        // Normalize path - ensure it starts with / for absolute paths from root
+        // Use the path as-is (relative paths work for both local and GitHub Pages)
+        // Relative paths (./assets/...) work correctly on GitHub Pages
+        // Absolute paths (/assets/...) break on GitHub Pages with subdirectory
         let iconPath = service.icon;
-        if (iconPath.startsWith('./')) {
-            // Convert relative path to absolute
-            iconPath = iconPath.substring(1); // Remove the dot, keep the slash
-        } else if (!iconPath.startsWith('/') && !iconPath.startsWith('http')) {
-            // If no prefix, assume it's relative to root
-            iconPath = '/' + iconPath;
+        
+        // Keep relative paths as-is for GitHub Pages compatibility
+        // Only normalize if it's an absolute path without http/https
+        if (iconPath.startsWith('/') && !iconPath.startsWith('//') && !iconPath.startsWith('http')) {
+            // Convert absolute path to relative for GitHub Pages compatibility
+            iconPath = '.' + iconPath;
         }
         
         img.src = iconPath;
