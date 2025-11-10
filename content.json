@@ -710,22 +710,22 @@
   "projects": {
     "gameProject": [
       {
-        "id": "ragball",
-        "title": "Ragball",
-        "category": "game project",
-        "image": "./assets/images/blog-3.png"
-      },
-      {
         "id": "mechanical-fury",
         "title": "Mechanical Fury",
         "category": "game project",
         "image": "./assets/images/mechanical-fury.png"
       },
       {
-        "id": "quest-valor",
-        "title": "Quest of Valor",
+        "id": "frenemies",
+        "title": "Frenemies",
         "category": "game project",
-        "image": "./assets/images/blog-2.png"
+        "image": "./assets/images/blog-5.png"
+      },
+      {
+        "id": "ragball",
+        "title": "Ragball",
+        "category": "game project",
+        "image": "./assets/images/blog-3.png"
       },
       {
         "id": "flesh-horror",
@@ -734,16 +734,16 @@
         "image": "./assets/images/blog-1.png"
       },
       {
+        "id": "quest-valor",
+        "title": "Quest of Valor",
+        "category": "game project",
+        "image": "./assets/images/blog-2.png"
+      },
+      {
         "id": "mini-games",
         "title": "Mini Games",
         "category": "game project",
         "image": "./assets/images/blog-4.png"
-      },
-      {
-        "id": "frenemies",
-        "title": "Frenemies",
-        "category": "game project",
-        "image": "./assets/images/blog-5.png"
       }
     ],
     "others": [
