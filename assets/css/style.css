@@ -3887,6 +3887,7 @@ img {
   display: block;
   padding: 40px 0 48px 48px;
   border-bottom: 1px solid rgba(46, 241, 113, 0.1);
+  overflow: visible;
 }
 
 .testimonials-title {
@@ -3907,7 +3908,25 @@ img {
   margin: 0;
   list-style: none;
   padding-right: 48px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(46, 241, 113, 0.5) rgba(46, 241, 113, 0.1);
+  cursor: grab;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.testimonials-list:active {
+  cursor: grabbing;
+}
+
+.testimonials-list * {
+  user-select: none;
+  pointer-events: auto;
 }
 
 .testimonials-item {
@@ -4155,18 +4174,28 @@ img {
   line-height: 1.6;
 }
 
-/* Scrollbar */
+/* Scrollbar - Enhanced for better visibility */
 .testimonials-list::-webkit-scrollbar {
-  height: 6px;
+  height: 10px !important;
+  display: block !important;
+  background: transparent !important;
 }
 
 .testimonials-list::-webkit-scrollbar-thumb {
-  background: rgba(46, 241, 113, 0.3);
+  background: rgba(46, 241, 113, 0.6) !important;
   border-radius: 10px;
+  transition: background 0.2s ease;
+  border: 1px solid rgba(46, 241, 113, 0.2);
+}
+
+.testimonials-list::-webkit-scrollbar-thumb:hover {
+  background: rgba(46, 241, 113, 0.8) !important;
 }
 
 .testimonials-list::-webkit-scrollbar-track {
-  background: rgba(46, 241, 113, 0.05);
+  background: rgba(46, 241, 113, 0.15) !important;
+  border-radius: 10px;
+  margin: 0 10px;
 }
 
 /* Responsive */
@@ -5194,6 +5223,12 @@ iframe[style*="height: 500px"] {
   display: none;
 }
 
+/* Exception: Show scrollbar for testimonials list */
+.testimonials-list::-webkit-scrollbar {
+  display: block !important;
+  height: 6px;
+}
+
 /* Hide scrollbar for IE, Edge and Firefox */
 html,
 body {
@@ -5201,6 +5236,12 @@ body {
   /* IE and Edge */
   scrollbar-width: none;
   /* Firefox */
+}
+
+/* Exception: Show scrollbar for testimonials list in Firefox */
+.testimonials-list {
+  scrollbar-width: thin !important;
+  scrollbar-color: rgba(46, 241, 113, 0.5) rgba(46, 241, 113, 0.1) !important;
 }
 
 /* Portfolio Rework Styles */
