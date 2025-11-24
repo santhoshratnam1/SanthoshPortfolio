@@ -36,6 +36,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preload" as="image" href="./assets/avatar/avatar-05.png" fetchpriority="high">
 
   <!-- Google Analytics (GA4) - Replace G-22XWBXKG60 with your Measurement ID -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-22XWBXKG60"></script>
@@ -184,7 +185,7 @@
           <div class="page-content">
             <section class="home-hero">
               <div class="home-hero-avatar-wrapper">
-                <img alt="Santhosh Ratnam" class="home-hero-avatar" loading="lazy" src="./assets/avatar/avatar-05.png" />
+                <img alt="Santhosh Ratnam" class="home-hero-avatar" loading="eager" fetchpriority="high" decoding="async" width="400" height="400" src="./assets/avatar/avatar-05.png" />
               </div>
               <div class="hero-text-grid center-text">
 
@@ -283,7 +284,7 @@
                 <a href="portfolio/mechanical-fury.html" class="featured-card-single">
                   <div class="featured-card-inner">
                     <div class="featured-image-single">
-                      <img src="./assets/portfolio-images/mechanical-fury.png" alt="Mechanical Fury" loading="lazy" style="object-fit: cover; background: linear-gradient(135deg, #dc2626 0%, #ea580c 100%);" />
+                      <img src="./assets/portfolio-images/mechanical-fury.png" alt="Mechanical Fury" loading="lazy" decoding="async" width="1200" height="675" style="object-fit: cover; background: linear-gradient(135deg, #dc2626 0%, #ea580c 100%);" />
                       <div class="featured-overlay"></div>
                     </div>
                     <div class="featured-content-single">
