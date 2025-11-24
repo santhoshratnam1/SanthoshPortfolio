@@ -608,6 +608,73 @@
         overlay.addEventListener("click", testimonialsModalFunc);
     }
 
+    // Testimonials Horizontal Scroll Functionality
+    function initTestimonialsScroll() {
+        const testimonialsList = document.querySelector('.testimonials-list');
+        if (!testimonialsList) return;
+
+        let isDown = false;
+        let startX;
+        let scrollLeft;
+
+        // Mouse events for desktop
+        testimonialsList.addEventListener('mousedown', (e) => {
+            isDown = true;
+            testimonialsList.style.cursor = 'grabbing';
+            startX = e.pageX - testimonialsList.offsetLeft;
+            scrollLeft = testimonialsList.scrollLeft;
+        });
+
+        testimonialsList.addEventListener('mouseleave', () => {
+            isDown = false;
+            testimonialsList.style.cursor = 'grab';
+        });
+
+        testimonialsList.addEventListener('mouseup', () => {
+            isDown = false;
+            testimonialsList.style.cursor = 'grab';
+        });
+
+        testimonialsList.addEventListener('mousemove', (e) => {
+            if (!isDown) return;
+            e.preventDefault();
+            const x = e.pageX - testimonialsList.offsetLeft;
+            const walk = (x - startX) * 2; // Scroll speed multiplier
+            testimonialsList.scrollLeft = scrollLeft - walk;
+        });
+
+        // Touch events for mobile
+        let touchStartX = 0;
+        let touchScrollLeft = 0;
+
+        testimonialsList.addEventListener('touchstart', (e) => {
+            touchStartX = e.touches[0].pageX - testimonialsList.offsetLeft;
+            touchScrollLeft = testimonialsList.scrollLeft;
+        }, { passive: true });
+
+        testimonialsList.addEventListener('touchmove', (e) => {
+            if (!touchStartX) return;
+            const x = e.touches[0].pageX - testimonialsList.offsetLeft;
+            const walk = (x - touchStartX) * 1.5;
+            testimonialsList.scrollLeft = touchScrollLeft - walk;
+        }, { passive: true });
+
+        // Wheel event for horizontal scrolling with shift key
+        testimonialsList.addEventListener('wheel', (e) => {
+            if (e.deltaY !== 0) {
+                e.preventDefault();
+                testimonialsList.scrollLeft += e.deltaY;
+            }
+        }, { passive: false });
+    }
+
+    // Initialize testimonials scroll on DOM ready
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initTestimonialsScroll);
+    } else {
+        initTestimonialsScroll();
+    }
+
 })();
 
 // Levels Toggle Functionality
