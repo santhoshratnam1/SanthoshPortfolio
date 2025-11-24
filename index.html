@@ -36,6 +36,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preload" as="image" href="./assets/avatar/avatar-05.webp" fetchpriority="high">
   <link rel="preload" as="image" href="./assets/avatar/avatar-05.png" fetchpriority="high">
 
   <!-- Google Analytics (GA4) - Replace G-22XWBXKG60 with your Measurement ID -->
@@ -119,7 +120,10 @@
           <div class="person-block">
             <a href="index.html" class="person-avatar-wrapper "
               data-anim='{"trigger":"hover","props":{"rotate":-10},"opts":{"duration":500,"easing":"easeOutCubic"},"target":".person-avatar"}'>
-              <img src="./assets/avatar/avatar-03.png" loading="lazy" alt="Santhosh Ratnam" class="person-avatar" />
+              <picture>
+                <source srcset="./assets/avatar/avatar-03.webp" type="image/webp">
+                <img src="./assets/avatar/avatar-03.png" loading="lazy" alt="Santhosh Ratnam" class="person-avatar" />
+              </picture>
               <div class="status-indicator"
                 data-anim='{"trigger":"enter","props":{"scale":1},"opts":{"duration":500,"easing":"outQuad"}}'></div>
             </a>
@@ -185,7 +189,10 @@
           <div class="page-content">
             <section class="home-hero">
               <div class="home-hero-avatar-wrapper">
-                <img alt="Santhosh Ratnam" class="home-hero-avatar" loading="eager" fetchpriority="high" decoding="async" width="400" height="400" src="./assets/avatar/avatar-05.png" />
+                <picture>
+                  <source srcset="./assets/avatar/avatar-05.webp" type="image/webp">
+                  <img alt="Santhosh Ratnam" class="home-hero-avatar" loading="eager" fetchpriority="high" decoding="async" width="400" height="400" src="./assets/avatar/avatar-05.png" />
+                </picture>
               </div>
               <div class="hero-text-grid center-text">
 
@@ -284,7 +291,10 @@
                 <a href="portfolio/mechanical-fury.html" class="featured-card-single">
                   <div class="featured-card-inner">
                     <div class="featured-image-single">
-                      <img src="./assets/portfolio-images/mechanical-fury.png" alt="Mechanical Fury" loading="lazy" decoding="async" width="1200" height="675" style="object-fit: cover; background: linear-gradient(135deg, #dc2626 0%, #ea580c 100%);" />
+                      <picture>
+                        <source srcset="./assets/portfolio-images/mechanical-fury.webp" type="image/webp">
+                        <img src="./assets/portfolio-images/mechanical-fury.png" alt="Mechanical Fury" loading="lazy" decoding="async" width="1200" height="675" style="object-fit: cover; background: linear-gradient(135deg, #dc2626 0%, #ea580c 100%);" />
+                      </picture>
                       <div class="featured-overlay"></div>
                     </div>
                     <div class="featured-content-single">
