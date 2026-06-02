@@ -1,7 +1,7 @@
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 body {
@@ -220,7 +220,7 @@ body {
   background-color: #fff;
   min-height: 100%;
   margin: 0;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 14px;
   line-height: 20px;
   overflow-x: hidden;
@@ -304,21 +304,21 @@ h4 {
   margin-top: 10px;
   font-size: 18px;
   line-height: 24px;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 h5 {
   margin-top: 10px;
   font-size: 14px;
   line-height: 20px;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 h6 {
   margin-top: 10px;
   font-size: 12px;
   line-height: 18px;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 p {
@@ -328,7 +328,7 @@ p {
   line-height: 1.8;
   font-weight: 400;
   letter-spacing: 0.02em;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /* Ensure paragraph styling applies even with utility classes */
@@ -342,7 +342,7 @@ p.color-white-opacity-65 {
   line-height: 1.8 !important;
   font-weight: 400 !important;
   letter-spacing: 0.02em !important;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif !important;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif !important;
 }
 
 blockquote {
@@ -682,7 +682,7 @@ label {
 body {
   background-color: var(--black);
   color: var(--white);
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.5;
@@ -694,7 +694,7 @@ body {
 /* Ensure all text elements use Inter regular 400 and whiter text */
 body,
 body * {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /* Default font-weight for text elements */
@@ -713,7 +713,7 @@ h1 {
   font-size: 32px;
   font-weight: 600;
   line-height: 1.2;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 h2 {
@@ -723,7 +723,7 @@ h2 {
   font-weight: 600;
   line-height: 1.3;
   letter-spacing: -0.015em;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 h3 {
@@ -732,7 +732,7 @@ h3 {
   font-size: 20px;
   font-weight: 500;
   line-height: 112%;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 p {
@@ -741,7 +741,7 @@ p {
   line-height: 1.8;
   font-weight: 400;
   letter-spacing: 0.02em;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /* Ensure paragraph styling applies even with utility classes */
@@ -755,7 +755,7 @@ p.color-white-opacity-65 {
   line-height: 1.8 !important;
   font-weight: 400 !important;
   letter-spacing: 0.02em !important;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif !important;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif !important;
 }
 
 a {
@@ -1032,7 +1032,7 @@ img {
   font-size: 12px;
   line-height: 112%;
   font-weight: 400;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /* Global text styling for medium-s and medium-xs when used in paragraphs or text elements */
@@ -1040,7 +1040,7 @@ img {
 .medium-xs,
 .medium-l {
   font-weight: 400;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /* Make text whiter when used with opacity classes */
@@ -2422,7 +2422,7 @@ img {
   font-weight: 600;
   color: #2ef171;
   /* Bright green matching reference */
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   margin-top: 30px;
   text-align: center;
   opacity: 0;
@@ -4806,7 +4806,7 @@ iframe[style*="height: 500px"] {
 }
 
 .featured-title {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 36px;
   font-weight: 700;
   letter-spacing: -0.02em;
@@ -4815,7 +4815,7 @@ iframe[style*="height: 500px"] {
 }
 
 .featured-subtitle {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 17px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.6);
@@ -4899,7 +4899,7 @@ iframe[style*="height: 500px"] {
 }
 
 .featured-tag {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -4920,7 +4920,7 @@ iframe[style*="height: 500px"] {
 }
 
 .featured-project-title-single {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 32px;
   font-weight: 700;
   letter-spacing: -0.02em;
@@ -4930,7 +4930,7 @@ iframe[style*="height: 500px"] {
 }
 
 .featured-description-single {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.6;
@@ -4955,7 +4955,7 @@ iframe[style*="height: 500px"] {
 }
 
 .stat-value {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 24px;
   font-weight: 700;
   letter-spacing: -0.02em;
@@ -4973,7 +4973,7 @@ iframe[style*="height: 500px"] {
   gap: 8px;
   margin-top: 12px;
   color: #f59e0b;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 15px;
   font-weight: 600;
   letter-spacing: -0.01em;
@@ -4993,7 +4993,7 @@ iframe[style*="height: 500px"] {
 }
 
 .stat-label {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 11px;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -5016,7 +5016,7 @@ iframe[style*="height: 500px"] {
   border: 1px solid rgba(245, 158, 11, 0.2);
   border-radius: 12px;
   color: #f59e0b;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 15px;
   font-weight: 500;
   letter-spacing: -0.01em;
@@ -5140,7 +5140,7 @@ iframe[style*="height: 500px"] {
 }
 
 .portfolio-nav .nav-item {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 13px;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.65);
@@ -5506,7 +5506,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 30px;
   color: #ffffff;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Hanken Grotesk', sans-serif;
   font-size: 1em;
   font-weight: 500;
   cursor: pointer;
@@ -5698,3 +5698,25 @@ button:focus:not(:focus-visible) { outline: none; }
 
 /* endorsement now uses a YouTube iframe */
 .endorse-video iframe { width: 100%; height: 100%; border: 0; display: block; }
+
+/* ============================================================
+   V1 POLISH PASS 5 — type system + endorsement card
+   ============================================================ */
+/* Distinctive display font for headings (body stays Hanken Grotesk) */
+.h1, .h2, .h3, .h4, h1, h2, h3, h4,
+.hero-h1, .mission-title, .featured-title, .featured-project-title-single,
+.pane-title, .project-modal-section-title, .project-details-title {
+  font-family: 'Bricolage Grotesque', 'Hanken Grotesk', system-ui, sans-serif;
+  letter-spacing: -0.015em;
+}
+
+/* Endorsement: click-to-watch thumbnail card (robust vs embed restrictions) */
+a.endorse-video { display: block; position: relative; text-decoration: none; }
+a.endorse-video img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.endorse-play {
+  position: absolute; inset: 0; margin: auto; width: 66px; height: 66px; border-radius: 50%;
+  background: rgba(0,0,0,.55); color: #fff; display: grid; place-items: center;
+  backdrop-filter: blur(6px); border: 1px solid rgba(255,255,255,.25);
+  transition: transform .25s cubic-bezier(.2,.7,.2,1), background-color .25s, color .25s;
+}
+a.endorse-video:hover .endorse-play { transform: scale(1.08); background: var(--green); color: #062b14; border-color: transparent; }
