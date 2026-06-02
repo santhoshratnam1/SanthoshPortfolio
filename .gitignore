@@ -1,0 +1,5 @@
+
+# Tooling/state (not part of the site)
+.gstack/
+.omc/
+_revamp_*.py

@@ -1,4 +1,4 @@
-# robots.txt for santhoshratnam.com
+# robots.txt for santhoshratnam1.github.io/SanthoshPortfolio
 
 User-agent: *
 Allow: /
@@ -8,7 +8,7 @@ Allow: /
 # Disallow: /private/
 
 # Sitemap location
-Sitemap: https://santhoshratnam.com/sitemap.xml
+Sitemap: https://santhoshratnam1.github.io/SanthoshPortfolio/sitemap.xml
 
 # Crawl-delay (optional - can help prevent server overload)
 # Crawl-delay: 1

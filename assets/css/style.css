@@ -5534,3 +5534,54 @@ body {
 .full-overview-btn.active ion-icon {
   transform: rotate(180deg);
 }
+/* ============================================================
+   V1 REVAMP POLISH (2026-06) — additive, non-destructive
+   ============================================================ */
+
+/* Accessible label hiding (contact form keeps placeholder look) */
+.visually-hidden {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0, 0, 0, 0);
+  white-space: nowrap; border: 0;
+}
+
+/* About → specialization list (replaces old inline-styled list + emoji) */
+.specialization-list { list-style: none; padding: 0; margin: 0; }
+.specialization-item {
+  display: flex; align-items: flex-start; gap: 12px; margin-bottom: 16px;
+}
+.specialization-item strong { color: var(--white); }
+.spec-bullet {
+  flex: 0 0 auto; width: 8px; height: 8px; margin-top: 7px; border-radius: 50%;
+  background-color: var(--yellow); box-shadow: 0 0 10px var(--yellow-opacity--35);
+}
+
+/* Keyboard focus visibility (was missing site-wide) */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+.menu-item:focus-visible,
+.tech-stack-block:focus-visible,
+.social-button:focus-visible,
+.primary-button:focus-visible,
+.form-button:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+/* Don't show the ring on mouse click, only keyboard */
+a:focus:not(:focus-visible),
+button:focus:not(:focus-visible) { outline: none; }
+
+/* Respect reduced-motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

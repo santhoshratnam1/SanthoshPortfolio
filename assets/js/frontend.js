@@ -659,13 +659,10 @@
             testimonialsList.scrollLeft = touchScrollLeft - walk;
         }, { passive: true });
 
-        // Wheel event for horizontal scrolling with shift key
-        testimonialsList.addEventListener('wheel', (e) => {
-            if (e.deltaY !== 0) {
-                e.preventDefault();
-                testimonialsList.scrollLeft += e.deltaY;
-            }
-        }, { passive: false });
+        // NOTE: A previous build hijacked the mouse wheel here (preventDefault +
+        // passive:false) which blocked normal vertical page scrolling whenever the
+        // cursor was over the testimonials. Removed — drag and touch scrolling above
+        // already cover horizontal navigation, and the page now scrolls normally.
     }
 
     // Initialize testimonials scroll on DOM ready
@@ -693,7 +690,6 @@
         });
 
         document.body.dataset.levelsToggleInitialized = 'true';
-        console.log('✅ Levels toggle functionality initialized');
     }
 })();
 

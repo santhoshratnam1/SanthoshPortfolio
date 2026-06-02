@@ -6,100 +6,107 @@
   
   <!-- Main Pages -->
   <url>
-    <loc>https://santhoshratnam.com/</loc>
-    <lastmod>2024-12-15</lastmod>
+    <loc>https://santhoshratnam1.github.io/SanthoshPortfolio/</loc>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
-    <loc>https://santhoshratnam.com/about.html</loc>
-    <lastmod>2024-12-15</lastmod>
+    <loc>https://santhoshratnam1.github.io/SanthoshPortfolio/about.html</loc>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://santhoshratnam.com/portfolio.html</loc>
-    <lastmod>2024-12-15</lastmod>
+    <loc>https://santhoshratnam1.github.io/SanthoshPortfolio/portfolio.html</loc>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://santhoshratnam.com/services.html</loc>
-    <lastmod>2024-12-15</lastmod>
+    <loc>https://santhoshratnam1.github.io/SanthoshPortfolio/services.html</loc>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://santhoshratnam.com/contact.html</loc>
-    <lastmod>2024-12-15</lastmod>
+    <loc>https://santhoshratnam1.github.io/SanthoshPortfolio/contact.html</loc>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <!-- Portfolio Projects -->
   <url>
-    <loc>https://santhoshratnam.com/portfolio/frenemies.html</loc>
-    <lastmod>2024-12-15</lastmod>
+    <loc>https://santhoshratnam1.github.io/SanthoshPortfolio/portfolio/mechanical-fury.html</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://santhoshratnam1.github.io/SanthoshPortfolio/portfolio/frenemies.html</loc>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://santhoshratnam.com/portfolio/quest-for-valor.html</loc>
-    <lastmod>2024-12-15</lastmod>
+    <loc>https://santhoshratnam1.github.io/SanthoshPortfolio/portfolio/quest-for-valor.html</loc>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://santhoshratnam.com/portfolio/ragball.html</loc>
-    <lastmod>2024-12-15</lastmod>
+    <loc>https://santhoshratnam1.github.io/SanthoshPortfolio/portfolio/ragball.html</loc>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://santhoshratnam.com/portfolio/fresh-color-horror.html</loc>
-    <lastmod>2024-12-15</lastmod>
+    <loc>https://santhoshratnam1.github.io/SanthoshPortfolio/portfolio/fresh-color-horror.html</loc>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://santhoshratnam.com/portfolio/nekokuza.html</loc>
-    <lastmod>2024-12-15</lastmod>
+    <loc>https://santhoshratnam1.github.io/SanthoshPortfolio/portfolio/nekokuza.html</loc>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://santhoshratnam.com/portfolio/ux-ui.html</loc>
-    <lastmod>2024-12-15</lastmod>
+    <loc>https://santhoshratnam1.github.io/SanthoshPortfolio/portfolio/ux-ui.html</loc>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://santhoshratnam.com/portfolio/overlord.html</loc>
-    <lastmod>2024-12-15</lastmod>
+    <loc>https://santhoshratnam1.github.io/SanthoshPortfolio/portfolio/overlord.html</loc>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://santhoshratnam.com/portfolio/journey2095.html</loc>
-    <lastmod>2024-12-15</lastmod>
+    <loc>https://santhoshratnam1.github.io/SanthoshPortfolio/portfolio/journey2095.html</loc>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://santhoshratnam.com/portfolio/nekomancer.html</loc>
-    <lastmod>2024-12-15</lastmod>
+    <loc>https://santhoshratnam1.github.io/SanthoshPortfolio/portfolio/nekomancer.html</loc>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
