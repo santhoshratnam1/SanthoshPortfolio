@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none" stroke="#8fb4ff" stroke-width="2" opacity="0.5">
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <!-- triangle -->
+    <path d="M880 90 l46 80 h-92 z"/>
+    <!-- circle -->
+    <circle cx="1040" cy="240" r="42"/>
+    <!-- cross -->
+    <path d="M930 330 l46 46 M976 330 l-46 46"/>
+    <!-- square -->
+    <rect x="1060" y="430" width="74" height="74" rx="6"/>
+    <!-- scattered fainter set -->
+    <circle cx="760" cy="520" r="30" opacity="0.5"/>
+    <path d="M1000 600 l34 60 h-68 z" opacity="0.5"/>
+    <path d="M820 300 l34 34 M854 300 l-34 34" opacity="0.45"/>
+    <rect x="700" y="120" width="54" height="54" rx="5" opacity="0.4"/>
+  </g>
+</svg>

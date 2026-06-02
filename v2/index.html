@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Santhosh Ratnam — Game Designer / Level Designer</title>
+  <meta name="description"
+    content="Santhosh Ratnam — Game & Level Designer. A PS5-style interactive portfolio of game design and level design work." />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0b0d14" />
+  <!-- V2 preview build: keep out of search index; canonical points to the live V1 site -->
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="canonical" href="https://santhoshratnam1.github.io/SanthoshPortfolio/" />
+  <link rel="icon" href="data:," />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/ps5.css" />
+</head>
+
+<body>
+  <div id="os" class="os">
+
+    <!-- ============ BOOT ============ -->
+    <section id="boot" class="screen boot is-active" aria-hidden="false">
+      <div class="boot-mark">
+        <div class="boot-logo">
+          <span class="boot-shape"></span>
+          <span class="boot-shape"></span>
+        </div>
+        <div class="boot-word">SANTHOSH&nbsp;OS</div>
+        <div class="boot-bar"><i></i></div>
+      </div>
+    </section>
+
+    <!-- ============ PROFILE SELECT ============ -->
+    <section id="profile-select" class="screen profile-select" aria-hidden="true">
+      <div class="ps-time" data-clock-full></div>
+      <h1 class="ps-title">Who's using this controller?</h1>
+      <button class="user-card" id="enter-btn">
+        <span class="user-avatar">
+          <img src="../assets/avatar/avatar-03.png" alt="Santhosh Ratnam" />
+        </span>
+        <span class="user-name">Santhosh Ratnam</span>
+        <span class="user-sub">Game Designer / Level Designer</span>
+      </button>
+      <p class="ps-hint">Press to sign in</p>
+    </section>
+
+    <!-- ============ HOME DASHBOARD ============ -->
+    <main id="home" class="screen home" aria-hidden="true">
+      <!-- status bar -->
+      <header class="statusbar">
+        <nav class="tabs" role="tablist">
+          <button class="tab is-active" data-tab="games" role="tab">Games</button>
+          <button class="tab" data-tab="media" role="tab">Media</button>
+        </nav>
+        <div class="status-right">
+          <button class="status-ic" data-open="trophies" title="Trophies (Awards)" aria-label="Trophies">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+              <path fill="currentColor"
+                d="M18 4h3v3a4 4 0 0 1-4 4h-.35A6 6 0 0 1 13 14.9V17h3v2H8v-2h3v-2.1A6 6 0 0 1 7.35 11H7a4 4 0 0 1-4-4V4h3V3h12v1Zm0 2v3a2 2 0 0 0 1-1.73V6h-1ZM5 6v1.27A2 2 0 0 0 6 9V6H5Z" />
+            </svg>
+          </button>
+          <button class="status-ic" data-open="settings" title="Settings" aria-label="Settings">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+              <path fill="currentColor"
+                d="M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm9.3 4 1.6 1.5-1.6 2.8-2.1-.5a7.6 7.6 0 0 1-1.3.8L17.4 19h-3.2l-.4-2.1a7.6 7.6 0 0 1-1.3-.8l-2.1.5-1.6-2.8L10.7 12 9.1 10.5l1.6-2.8 2.1.5c.4-.3.8-.6 1.3-.8l.4-2.1h3.2l.4 2.1c.5.2.9.5 1.3.8l2.1-.5 1.6 2.8L21.3 12Z" />
+            </svg>
+          </button>
+          <button class="status-avatar" data-open="profile" title="Profile" aria-label="Profile">
+            <img src="../assets/avatar/avatar-03.png" alt="Profile" />
+          </button>
+          <span class="status-clock" data-clock></span>
+        </div>
+      </header>
+
+      <!-- GAMES tab -->
+      <section class="tabpane is-active" data-pane="games">
+        <div class="hero" id="hero">
+          <div class="hero-bg" id="hero-bg"></div>
+          <div class="hero-scrim"></div>
+          <div class="hero-inner">
+            <div class="hero-kicker" id="hero-kicker">Game Designer / Level Designer</div>
+            <h2 class="hero-title" id="hero-title">Mechanical Fury</h2>
+            <div class="hero-tags" id="hero-tags"></div>
+            <p class="hero-desc" id="hero-desc"></p>
+            <div class="hero-actions">
+              <button class="btn-launch" id="btn-launch">
+                <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+                  <path fill="currentColor" d="M8 5v14l11-7z" />
+                </svg>
+                <span>Launch</span>
+              </button>
+              <a class="btn-ghost" id="btn-case" href="#" target="_blank" rel="noopener">Case study</a>
+            </div>
+            <div class="hero-stats" id="hero-stats"></div>
+          </div>
+        </div>
+
+        <div class="rail-wrap">
+          <div class="rail-label">Your Library</div>
+          <ul class="rail" id="rail" role="listbox" aria-label="Projects"></ul>
+        </div>
+      </section>
+
+      <!-- MEDIA tab -->
+      <section class="tabpane" data-pane="media">
+        <div class="media-pane">
+          <h2 class="pane-title">Media — Showreel</h2>
+          <div class="media-frame">
+            <iframe id="reel" src="about:blank" data-src="https://www.youtube-nocookie.com/embed/yg3L5Djh7TY?rel=0"
+              title="Showreel — Santhosh Ratnam" loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+          </div>
+          <p class="media-cap">A short reel of mini projects, prototypes, and experiments — gameplay, level design,
+            mechanics, and VFX.</p>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============ GAME LAUNCH OVERLAY ============ -->
+    <section id="game" class="overlay game-overlay" aria-hidden="true">
+      <div class="game-bg" id="game-bg"></div>
+      <div class="game-scrim"></div>
+      <button class="overlay-close" data-close-overlay aria-label="Close">✕ Close</button>
+      <div class="game-content">
+        <div class="game-head">
+          <div class="game-kicker" id="game-kicker"></div>
+          <h2 class="game-title" id="game-title"></h2>
+          <div class="hero-tags" id="game-tags"></div>
+        </div>
+        <div class="game-media" id="game-media"></div>
+        <p class="game-desc" id="game-desc"></p>
+        <div class="game-actions">
+          <a class="btn-launch" id="game-case" href="#" target="_blank" rel="noopener">
+            <span>View full case study</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TROPHIES (AWARDS) ============ -->
+    <section id="trophies" class="overlay sheet" aria-hidden="true">
+      <button class="overlay-close" data-close-overlay aria-label="Close">✕ Close</button>
+      <div class="sheet-inner">
+        <h2 class="pane-title">Trophies</h2>
+        <p class="pane-sub">Awards &amp; recognition</p>
+        <ul class="trophy-list" id="trophy-list"></ul>
+      </div>
+    </section>
+
+    <!-- ============ PROFILE (ABOUT) ============ -->
+    <section id="profile" class="overlay sheet" aria-hidden="true">
+      <button class="overlay-close" data-close-overlay aria-label="Close">✕ Close</button>
+      <div class="sheet-inner">
+        <div class="profile-head">
+          <span class="profile-pic"><img src="../assets/avatar/avatar-02.png" alt="Santhosh Ratnam" /></span>
+          <div>
+            <h2 class="pane-title">Santhosh Ratnam</h2>
+            <p class="pane-sub">Game Designer / Level Designer · Chennai, India</p>
+          </div>
+        </div>
+        <p class="profile-bio">I'm a Game &amp; Level Designer specializing in fast-paced action games and competitive
+          arena design. With 3+ years of experience, I've designed 15+ levels and shipped a commercial game on Steam.</p>
+        <h3 class="block-title">What I specialize in</h3>
+        <ul class="spec" id="spec-list"></ul>
+        <h3 class="block-title">Skills &amp; tools</h3>
+        <div class="chipset" id="skill-chips"></div>
+      </div>
+    </section>
+
+    <!-- ============ SETTINGS (CONTACT) ============ -->
+    <section id="settings" class="overlay sheet" aria-hidden="true">
+      <button class="overlay-close" data-close-overlay aria-label="Close">✕ Close</button>
+      <div class="sheet-inner">
+        <h2 class="pane-title">Settings</h2>
+        <p class="pane-sub">Get in touch &amp; downloads</p>
+
+        <div class="set-row">
+          <div class="set-key">Status</div>
+          <div class="set-val"><span class="dot-online"></span> Open to opportunities</div>
+        </div>
+        <a class="set-row link" href="mailto:santhoshratnam1@gmail.com">
+          <div class="set-key">Email</div>
+          <div class="set-val">santhoshratnam1@gmail.com</div>
+        </a>
+        <a class="set-row link" href="https://www.linkedin.com/in/santhoshdesigner09/" target="_blank" rel="noopener">
+          <div class="set-key">LinkedIn</div>
+          <div class="set-val">in/santhoshdesigner09 ↗</div>
+        </a>
+        <a class="set-row link" href="https://santhoshratnam1.github.io/SanthoshPortfolio/" target="_blank"
+          rel="noopener">
+          <div class="set-key">Classic site</div>
+          <div class="set-val">santhoshratnam1.github.io/SanthoshPortfolio ↗</div>
+        </a>
+
+        <a class="btn-launch wide"
+          href="https://www.canva.com/design/DAG_oT56LDk/d6xQKwFZQQeRNNlxiqdMLg/edit?utm_content=DAG_oT56LDk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+          target="_blank" rel="noopener">
+          <span>Download Résumé</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- control hint bar -->
+    <div class="hintbar" id="hintbar"></div>
+  </div>
+
+  <script src="./assets/js/ps5.js" defer></script>
+</body>
+
+</html>
