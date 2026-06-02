@@ -5585,3 +5585,93 @@ button:focus:not(:focus-visible) { outline: none; }
     scroll-behavior: auto !important;
   }
 }
+
+/* ============================================================
+   V1 POLISH PASS 2 (2026-06) — skill tiers + motion
+   ============================================================ */
+
+/* Skill tiles: name + proficiency tier always visible (replaces the
+   arbitrary % radial). Override the old hover that faded the icon out. */
+.stack-grid .tech-stack-block { padding: 20px 12px; }
+.tech-stack-block-content { gap: 10px; }
+.tech-stack-block:hover .tech-stack-icon,
+.tech-stack-block.active .tech-stack-icon { opacity: 1; transform: translateY(-4px); }
+.tech-stack-name {
+  font-size: 13px; font-weight: 600; color: var(--white); text-align: center;
+  line-height: 1.2; position: relative; z-index: 2;
+}
+.tech-stack-tier {
+  font-size: 10px; font-weight: 600; letter-spacing: 0.09em; text-transform: uppercase;
+  padding: 3px 10px; border-radius: 999px; position: relative; z-index: 2;
+  border: 1px solid var(--white-opacity--15); color: var(--white-opacity--50);
+  transition: transform 250ms cubic-bezier(.2,.7,.2,1);
+}
+.tech-stack-block[data-tier="Core"] .tech-stack-tier {
+  color: var(--green); border-color: var(--green-opacity--35); background: var(--green-opacity--10);
+}
+.tech-stack-block[data-tier="Proficient"] .tech-stack-tier {
+  color: var(--blue); border-color: var(--blue-opacity--35); background: var(--blue-opacity--10);
+}
+.tech-stack-block[data-tier="Familiar"] .tech-stack-tier { color: var(--white-opacity--65); }
+.tech-stack-block:hover .tech-stack-tier { transform: translateY(-2px); }
+
+/* Motion polish: consistent, springy lift on the main interactive cards */
+.quick-link-block, .service-card, .collection-item, .award-block, .tech-stack-block {
+  transition: transform .32s cubic-bezier(.2,.7,.2,1), box-shadow .32s ease, background-color .32s ease;
+  will-change: transform;
+}
+.quick-link-block:hover { transform: translateY(-4px); }
+.service-card:hover { transform: translateY(-3px); }
+.collection-item:hover .portfolio-item-cover { transform: scale(1.04); }
+.portfolio-item-cover { transition: transform .5s cubic-bezier(.2,.7,.2,1); }
+/* keep press feel snappy */
+.quick-link-block:active, .service-card:active, .collection-item:active { transform: translateY(-1px) scale(.997); }
+
+/* ============================================================
+   V1 POLISH PASS 3 (2026-06) — hireability: hero CTA, endorsement,
+   experience timeline
+   ============================================================ */
+
+/* Hero availability chip + CTA (home) */
+.hero-availability { display: inline-flex; margin: 0 auto 16px; }
+.hero-availability .medium-xs { color: var(--green); }
+.hero-cta { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-top: 26px; }
+.hero-btn { display: inline-flex; align-items: center; gap: 8px; padding: 12px 24px; border-radius: 999px; font-size: 14px; font-weight: 600; transition: transform .28s cubic-bezier(.2,.7,.2,1), background-color .28s, box-shadow .28s; }
+.hero-btn img { width: 14px; height: 14px; }
+.hero-btn-primary { background: var(--white); color: #0a0a0a; box-shadow: 0 8px 22px rgba(0,0,0,.35); }
+.hero-btn-primary img { filter: brightness(0); }
+.hero-btn-primary:hover { transform: translateY(-2px) scale(1.03); box-shadow: 0 12px 28px rgba(255,255,255,.18); }
+.hero-btn-ghost { border: 1px solid var(--white-opacity--15); color: var(--white); background: var(--white-opacity--5); }
+.hero-btn-ghost:hover { background: var(--white-opacity--10); transform: translateY(-2px); }
+
+/* Industry endorsement (home) */
+.endorse-section { margin: 8px 0 4px; }
+.endorse-card {
+  display: grid; grid-template-columns: 1.15fr 1fr; gap: 28px; align-items: center;
+  background: linear-gradient(135deg, rgba(46,241,113,.06), rgba(255,255,255,.02));
+  border: 1px solid var(--white-opacity--10); border-radius: 20px; padding: 22px;
+}
+.endorse-video { border-radius: 14px; overflow: hidden; background: #000; box-shadow: 0 14px 40px rgba(0,0,0,.45); aspect-ratio: 16/9; }
+.endorse-video video { width: 100%; height: 100%; object-fit: cover; display: block; }
+.endorse-meta { display: grid; gap: 12px; justify-items: start; }
+.endorse-title { line-height: 1.15; }
+.endorse-link { display: inline-flex; align-items: center; gap: 7px; color: var(--green); font-weight: 600; font-size: 14px; padding: 9px 16px; border-radius: 999px; border: 1px solid var(--green-opacity--35); background: var(--green-opacity--10); transition: background-color .25s, transform .25s; }
+.endorse-link img { width: 13px; height: 13px; filter: invert(64%) sepia(83%) saturate(440%) hue-rotate(86deg) brightness(101%); }
+.endorse-link:hover { background: var(--green-opacity--20); transform: translateY(-2px); }
+@media (max-width: 767px) {
+  .endorse-card { grid-template-columns: 1fr; gap: 18px; }
+}
+
+/* Experience timeline (about) */
+.exp-list { list-style: none; margin: 8px 0 0; padding: 0; position: relative; }
+.exp-item { position: relative; padding: 0 0 24px 28px; }
+.exp-item::before { content: ""; position: absolute; left: 5px; top: 16px; bottom: -4px; width: 2px; background: var(--yellow-opacity--20); }
+.exp-item:last-child { padding-bottom: 0; }
+.exp-item:last-child::before { display: none; }
+.exp-dot { position: absolute; left: 0; top: 5px; width: 12px; height: 12px; border-radius: 50%; background: var(--yellow); box-shadow: 0 0 10px var(--yellow-opacity--35); }
+.exp-head { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; align-items: baseline; margin-bottom: 4px; }
+.exp-role { font-size: 15px; font-weight: 700; color: var(--white); }
+.exp-co { font-weight: 500; color: var(--white-opacity--65); }
+.exp-co em { font-style: italic; color: var(--white-opacity--65); }
+.exp-when { font-size: 12px; color: var(--white-opacity--50); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.exp-body p { margin: 0; line-height: 1.55; }
